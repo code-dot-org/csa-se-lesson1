@@ -43,6 +43,7 @@ Let's start by creating a new branch:
 
 > &nbsp;
 > **By the way . . .**
+> 
 > Branch names help your team understand what is being worked on. Consider these best practices when naming your branch:
 > * **Keep it short:** Branch names should be concise. Long branch names can be difficult to remember and tedious to type.
 > * **Use dashes or underscores:** If your branch name is more than one word, separate words with dashes or underscores for readability.
@@ -64,6 +65,7 @@ Work together on **Partner B**'s computer to make the following changes.
 
 > &nbsp;
 > **By the way . . .**
+> 
 > A **commit** is an individual change to a file (or set of files).
 > 
 > Did you see this message after clicking the **Commit** button?
@@ -74,6 +76,7 @@ Work together on **Partner B**'s computer to make the following changes.
 > | Modified | Staged | Committed |
 > | ---------- | ---------- | ---------- |
 > | The file has been changed, but Git is not tracking these changes for the next commit yet. | The changes you made to the file are exactly what you want to include in the next commit. | The version of the file at the moment of the commit has been safely saved in your repo. |
+> 
 > Before changes can be updated in the repo, they must be added to staging first. If you click **Yes**, you'll continue to be reminded each time you make a commit. If you click **Always**, your changes will always be added to staging automatically before committing them to the repo.
 > &nbsp;
 
@@ -106,6 +109,7 @@ A **pull request** is a method of submitting contributions to a project. It lets
 
 > &nbsp;
 > **By the way . . .**
+> 
 > Make sure you're merging to the correct branch! You want **base** to be **Partner A**'s branch, and **compare** to be your branch.
 >
 > ![merging to partner's branch](assets/lesson1-13.png)
