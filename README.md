@@ -107,6 +107,8 @@ A **pull request** is a method of submitting contributions to a project. It lets
 > &nbsp;
 > **By the way . . .**
 > Make sure you're merging to the correct branch! You want **base** to be **Partner A**'s branch, and **compare** to be your branch.
+>
+> ![merging to partner's branch](assets/lesson1-13.png)
 > &nbsp;
 
 2. **Partner B:** Provide a title and brief description, and select **Partner A** as the reviewer.
