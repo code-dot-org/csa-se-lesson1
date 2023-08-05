@@ -4,16 +4,23 @@ Alright, get set for some real **GitHub action**! We're diving into a **scavenge
 
 ## Getting Started
 
-1. Click the **Code** button on the repo.
-2. From the **Local** tab, copy the HTTPS link.
+1. Click the green **Use this template** button and choose **Create a new repository**.
+
+![create a new repository](assets/lesson1-14.png)
+
+2. On the Create a new repository page, select your GitHub username from the Owner dropdown, enter a name for the repository, then click the green Create repository button to then create a new repository using the template repository.
+
+![creating a new repository form](assets/lesson1-15.png)
+
+3. From the **Local** tab, copy the HTTPS link.
 
 ![HTTPS link on Local tab](assets/lesson1-01.png)
 
-3. In VS Code, click the **Source Control** tab, then click **Clone Repository**.
+4. In VS Code, click the **Source Control** tab, then click **Clone Repository**.
 
 ![Clone Repository button on Source Control tab](assets/lesson1-02.png)
 
-4. Paste the link in the command palette that appears. You'll be prompted to choose the location to store the files and whether or not you trust the authors of the folder.
+5. Paste the link in the command palette that appears. You'll be prompted to choose the location to store the files and whether or not you trust the authors of the folder.
 
 ![VS Code command palette](assets/lesson1-03.png)
 
