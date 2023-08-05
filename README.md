@@ -8,7 +8,7 @@ Alright, get set for some real **GitHub action**! We're diving into a **scavenge
 
 ![create a new repository](assets/lesson1-14.png)
 
-2. On the Create a new repository page, select your GitHub username from the Owner dropdown, enter a name for the repository, then click the green Create repository button to then create a new repository using the template repository.
+2. On the **Create a new repository** page, select your GitHub username from the **Owner** dropdown, enter a name for the repository, then click the green **Create repository** button to then create a new repository using the template repository.
 
 ![creating a new repository form](assets/lesson1-15.png)
 
