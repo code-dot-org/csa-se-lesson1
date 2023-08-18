@@ -18,19 +18,25 @@ Alright, get set for some real **GitHub action**! We're diving into a **scavenge
 
 4. Click the green **Add People** button, then enter your partner's GitHub username. Click the green button to add your partner as a collaborator on your repository.
 
-5. From the **Local** tab, copy the HTTPS link.
+5. **Partner B:** Click the **Notifications** button next to your profile picture in the top-right corner of the page.
+
+![accept invitation to collaborate on repo](assets/lesson1-18.png)
+
+You should see a notification that you were invited to join your partner's repo. Click the notification, then click the green **Accept invitation** button.
+
+6. From the **Local** tab, copy the HTTPS link.
 
 ![HTTPS link on Local tab](assets/lesson1-01.png)
 
-6. In VS Code, click the **Source Control** tab, then click **Clone Repository**.
+7. In VS Code, click the **Source Control** tab, then click **Clone Repository**.
 
 ![Clone Repository button on Source Control tab](assets/lesson1-02.png)
 
-7. Paste the link in the command palette that appears. You'll be prompted to choose the location to store the files and whether or not you trust the authors of the folder. Share this link with **Partner B** so they can clone your repository.
+8. Paste the link in the command palette that appears. You'll be prompted to choose the location to store the files and whether or not you trust the authors of the folder. Share this link with **Partner B** so they can clone your repository.
 
 ![VS Code command palette](assets/lesson1-03.png)
 
-8. **Partner B:** Follow Steps 6 and 7 to clone your partner's repository to your computer.
+9. **Partner B:** Follow Steps 7 and 8 to clone your partner's repository to your computer.
 
 ## Part 1: Creating branches
 
