@@ -12,17 +12,25 @@ Alright, get set for some real **GitHub action**! We're diving into a **scavenge
 
 ![creating a new repository form](assets/lesson1-15.png)
 
-3. From the **Local** tab, copy the HTTPS link.
+3. Go to the **Settings** tab, then navigate to the **Collaborators** option.
+
+![add collaborators in settings](assets/lesson1-17.png)
+
+4. Click the green **Add People** button, then enter your partner's GitHub username. Click the green button to add your partner as a collaborator on your repository.
+
+5. From the **Local** tab, copy the HTTPS link.
 
 ![HTTPS link on Local tab](assets/lesson1-01.png)
 
-4. In VS Code, click the **Source Control** tab, then click **Clone Repository**.
+6. In VS Code, click the **Source Control** tab, then click **Clone Repository**.
 
 ![Clone Repository button on Source Control tab](assets/lesson1-02.png)
 
-5. Paste the link in the command palette that appears. You'll be prompted to choose the location to store the files and whether or not you trust the authors of the folder.
+7. Paste the link in the command palette that appears. You'll be prompted to choose the location to store the files and whether or not you trust the authors of the folder. Share this link with **Partner B** so they can clone your repository.
 
 ![VS Code command palette](assets/lesson1-03.png)
+
+8. **Partner B:** Follow Steps 6 and 7 to clone your partner's repository to your computer.
 
 ## Part 1: Creating branches
 
@@ -46,7 +54,7 @@ Let's start by creating a new branch:
 
 ![publish the new branch](assets/lesson1-08.png)
 
-3. **Partner B:** Create a new branch **from Partner A's branch**, then go to the **Source Control** tab and click the **Publish Branch** button.
+1. **Partner B:** Create a new branch from **main**, then go to the **Source Control** tab and click the **Publish Branch** button.
 
 > &nbsp;
 > **By the way . . .**
@@ -92,7 +100,7 @@ Work together on **Partner B**'s computer to make the following changes.
 
 ![branches on GitHub](assets/lesson1-11.png)
 
-4. Back to the code...the `PlannerRunner` class is missing some code! Instantiate a `Student` object and call the `getChoice()` method in the `Student` class.
+4. Back to the code...the `PlannerRunner` class is missing some code! On **Partner A**'s computer, instantiate a `Student` object and call the `getChoice()` method in the `Student` class.
 5. There's a syntax error in one of the existing methods in the `Student` class. Find the error and fix it!
 6. Run the program. Does it run without errors?
 7. Commit your changes using the commit message `fixed Student.java`.
@@ -114,6 +122,8 @@ A **pull request** is a method of submitting contributions to a project. It lets
 
 1. **Partner B:** Navigate to the repo on GitHub and go to the **Pull requests** tab. Click the **New pull request** button to start a pull request.
 
+![the pull request tab](assets/lesson1-16.png)
+
 > &nbsp;
 > **By the way . . .**
 > 
@@ -122,15 +132,23 @@ A **pull request** is a method of submitting contributions to a project. It lets
 > ![merging to partner's branch](assets/lesson1-13.png)
 > &nbsp;
 
-2. **Partner B:** Provide a title and brief description, and select **Partner A** as the reviewer.
-3. **Partner A:** Navigate to the repo on GitHub and go to the **Pull requests** tab. Click the **New pull request** button to start a pull request to merge your branch to **main**.
-4. **Partner A:** Provide a title and brief description, and select **Partner B** as the reviewer.
+1. **Partner B:** Provide a title and brief description, and select **Partner A** as the reviewer.
+2. **Partner A:** Navigate to the repo on GitHub and go to the **Pull requests** tab. Click the **New pull request** button to start a pull request to merge your branch to **main**.
+3. **Partner A:** Provide a title and brief description, and select **Partner B** as the reviewer.
 
 ## Part 5: Reviewing the PR
 
 1. Go to the **Pull Requests** tab and select **your partner's** pull request from the list.
 2. Click the **Files Changed** tab and go through the changes line by line. For each change, you can click on the line number to add a comment about the line.
-3. When you're done reviewing, write a summary comment to give overall feedback about the changes. If you've found issues that need to be addressed, select **Request changes** and submit your review. If everything looks good, select **Approve**.
+3. When you're done reviewing, write a summary comment to give overall feedback about the changes.
+   * If you've found issues that need to be addressed, select **Request changes** and submit your review.
+   * If everything looks good, select **Approve**. On the **Conversation** tab, click the green button to merge the pull request. Click the **Delete branch** button after the merge is complete.
+
+> &nbsp;
+> **By the way . . .**
+> 
+> It is often recommended to delete the branch after merging. Branches are typically **short-lived** and **topic-specific**, so it isn't needed anymore once the work is merged.
+> &nbsp;
 
 ## Part 6: Stop 🛑 and Reflect 🤔
 
